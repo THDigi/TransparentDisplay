@@ -36,7 +36,7 @@
         <Model BuildPercentUpperBound="1.0" File="Models\LargeTransparentDisplay_Build1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>7</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0001</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
@@ -78,7 +78,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\MediumTransparentDisplay_Build1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>3</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.00007</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
