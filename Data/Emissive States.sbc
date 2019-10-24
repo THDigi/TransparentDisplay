@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmissiveColorStatePresets>
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>TransparentDisplay</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Working" EmissiveColorName="TransparentDisplay_On" DisplayColorName="Black" Emissivity="1" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="TransparentDisplay_Off" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Damaged" EmissiveColorName="TransparentDisplay_Off" DisplayColorName="Black" Emissivity="0" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+  </EmissiveColorStatePresets>
+
+  <EmissiveColors>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>TransparentDisplay_On</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>176</R>
+        <G>196</G>
+        <B>222</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>TransparentDisplay_Off</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>250</R>
+        <G>210</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+  </EmissiveColors>
+</Definitions>

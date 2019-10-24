@@ -39,9 +39,11 @@
       <MirroringZ>Y</MirroringZ>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0001</RequiredPowerInput>
+      <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
       <TextureResolution>512</TextureResolution>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>TransparentDisplay</EmissiveColorPreset>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -81,9 +83,11 @@
       <MirroringZ>Y</MirroringZ>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.00007</RequiredPowerInput>
+      <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
       <TextureResolution>512</TextureResolution>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>TransparentDisplay</EmissiveColorPreset>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -124,9 +128,11 @@
       <MirroringZ>Y</MirroringZ>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.00007</RequiredPowerInput>
+      <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
       <TextureResolution>512</TextureResolution>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>TransparentDisplay</EmissiveColorPreset>
     </Definition>
 
   </CubeBlocks>
