@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TransparentDisplay" />
+      <Icon>Textures\Icons\TransparentDisplay.dds</Icon>
+      <DisplayName>Transparent Displays</DisplayName>
+      <Description>LCDs that double as windows.</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeTransparentDisplay" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="MediumTransparentDisplay" />
+        <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentDisplay" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

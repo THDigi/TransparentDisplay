@@ -84,13 +84,6 @@
       <TextureResolution>512</TextureResolution>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>TextPanel</TypeId>
-          <SubtypeId>SmallTransparentDisplay</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
